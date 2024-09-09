@@ -1,0 +1,12 @@
+name: business workflow
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run custom action
+        uses: Deepthi-Udacity/business-greetings-action@main
