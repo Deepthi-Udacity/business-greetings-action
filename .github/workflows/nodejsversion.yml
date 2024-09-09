@@ -1,4 +1,4 @@
 steps:
-  -name: Run custom action
-   uses: Deepthi-Udacity/business-greetings-action@main
+  - name: Run custom action
+    uses: Deepthi-Udacity/business-greetings-action@main
   
